@@ -22,7 +22,7 @@ function Ltemples() {
    }
   return (
      <div className='lfmargin '>
-        <div  className='title  sub-title'>Latest temples</div>
+        <div  className='title  sub-title'>Latest Temples</div>
         <div className='d-flex  justify-content-evenly hscroll '  onMouseOver={mouseover}  id="container">
           { 
              Data.recentlyAddedTemples.temples.map(temples=>{ 

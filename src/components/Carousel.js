@@ -18,17 +18,17 @@ function Carousel() {
             <div className=' lfmargin    carusal '>
                 <div id="carouselExampleIndicators" className="carousel carousel-dark carousel-fade slide" data-bs-ride="true">
 
-                    <div className="carousel-inner">
+                    <div className="carousel-inner  " >
                                  
                         
-                        <div className="carousel-item active" data-bs-interval="2000">
-                            <img src="https://source.unsplash.com/random/?nature" className=" tales d-block w-100" alt="..." />
+                        <div className="carousel-item tales cimg active" data-bs-interval="22000">
+                            <img src="https://source.unsplash.com/random/?nature"   className=" cimg tales d-block  w-100" alt="..." />
                         </div>
-                        <div className="carousel-item" data-bs-interval="2000">
-                            <img src="https://source.unsplash.com/random/?temple "className="tales d-block w-100" alt="..." />
+                        <div className="carousel-item tales cimg " data-bs-interval="222000">
+                            <img src="https://source.unsplash.com/random/?temple "  className="tales cimg d-block w-100" alt="..." />
                         </div>
-                        <div className="carousel-item" data-bs-interval="2000">
-                            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" className="tales d-block w-100" alt="..." />
+                        <div className="carousel-item tales cimg  " data-bs-interval="222000">
+                            <img style={{'height':"100%"}} src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg"   className=" cimg tales d-block w-100" alt="..." />
                         </div>
                     </div>
                     <div className="carousel-indicators">
