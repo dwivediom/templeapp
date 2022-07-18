@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.card{ 
+  
+    margin:3px;
+    /* width:195px !important; */
+    height: 400px;
+  
+}
+.sub-title{ 
+  /* margin-left: 80px; */
+  font-size: 28px !important; 
+  margin-bottom: 10px;
+         
+}
+.sub-title2{ 
+  margin-left: 92px !important;
+  font-size: 28px !important; 
+  margin-bottom: 10px;}
+
+.title{ 
+  width: 355px;
+height: 38px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 120%;
+/* or 38px */
+
+
+/* Color 1 */
+
+color: #2F1160;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+ 
+
+.carausal{ 
+width: 100%;
+
+margin-top: 50px !important;
+border-radius: 0px;
+
+}
+.tales {
+  width: 100%;
+  max-height: 300px !important;
+}
+.carousel-inner {
+  width:100%;
+  max-height: 300px !important;
+  border-radius:13px;
+}
+.carousel{ 
+  width: 100% !important; 
+  display: block !important;
+}
+.carousel-indicators{ 
+  position: relative !important;
+  
+
+}
+
+/* .hscroll { 
+ overflow-x :scroll ;
+ display: flex;
+ overflow-x: scroll;
+
+ overflow-y:visible;
+ height: fit-content;
+ cursor:ew-resize
+
+} 
+.hscroll::-webkit-scrollbar{
+  width: 0;
+}  */
+
+
+/* #container {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor:ew-resize
+
+
+} */
+
+
+@media screen 
+  /* and (min-device-width: 800px)  */
+  and (max-width: 1600px) 
+  
+{
+  .lfmargin{ 
+    margin-top: 20px !important;
+     margin-right: 60px !important;
+     margin-left: 60px !important;
+     margin-bottom: 30px !important;
+     height: fit-content;
+  }
+  .sub-title{ 
+    margin-left: 3px;
+    font-size: 28px !important; 
+    margin-bottom: 10px;
+    
+           
+  }
+  .sub-title2{ 
+    margin-left: 92px !important;
+    font-size: 28px !important; 
+   margin-bottom: 10px;
+  }
+  .hscroll { 
+    overflow-x :scroll ;
+    display: flex;
+    overflow-x: scroll;
+   
+    overflow-y:visible;
+    height: 300px;
+    cursor:ew-resize
+   
+   } 
+   .hscroll::-webkit-scrollbar{
+     width: 0;
+   } 
+
+  .M-image img{ 
+    height:  400px ;
+    width: 100%;
+  }
+  .card{ 
+    height: 1 00px;
+    margin-left: 10px!important;
+  }
+}  
+
+/* Portrait and Landscape */
+@media only screen 
+ 
+  and (max-width: 800px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .lfmargin{ 
+      margin-top: 10px !important;
+       margin-right: 6px !important;
+       margin-left: 6px !important;
+       margin-bottom: 30px !important;
+       height: fit-content !important;
+    }
+    .sub-title{ 
+      margin-left: 0px;
+      font-size: 28px !important; 
+      margin-bottom: 10px;
+      
+             
+    }
+    .sub-title2{ 
+      margin-left: 92px !important;
+      font-size: 28px !important; 
+     margin-bottom: 10px;
+    }
+     .card{ 
+      margin:3px;
+      width:195px !important;
+      height: 400px;
+     }
+    .M-image img{ 
+      height:  400px ;
+      width: 100% !important;
+    }
+    .title{ 
+      height: fit-content;
+    }
+
+    .location{ 
+      margin-top: 100px;
+    }
+    .hscroll { 
+      overflow-x :scroll ;
+      display: flex;
+      overflow-x: scroll;
+         
+      overflow-y:hidden;
+      height: fit-content !important;
+      cursor:ew-resize;
+     
+      
+     
+     } 
+     .hscroll::-webkit-scrollbar{
+       width: 1;
+     } 
+  }
