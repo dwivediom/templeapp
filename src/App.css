@@ -78,7 +78,7 @@ border-radius: 0px;
 
 }
 
-/* .hscroll { 
+.hscroll { 
  overflow-x :scroll ;
  display: flex;
  overflow-x: scroll;
@@ -90,7 +90,8 @@ border-radius: 0px;
 } 
 .hscroll::-webkit-scrollbar{
   width: 0;
-}  */
+  display: none;
+} 
 
 
 /* #container {
@@ -105,7 +106,7 @@ border-radius: 0px;
 
 @media screen 
   /* and (min-device-width: 800px)  */
-  and (max-width: 1600px) 
+  and (max-width: 3600px) 
   
 {
   .lfmargin{ 
@@ -132,13 +133,14 @@ border-radius: 0px;
     display: flex;
     overflow-x: scroll;
    
-    overflow-y:visible;
+    overflow-y:scroll;
     height: 300px;
     cursor:ew-resize
    
    } 
    .hscroll::-webkit-scrollbar{
-     width: 0;
+     width: 0 !important;
+     display: none;
    } 
 
   .M-image img{ 

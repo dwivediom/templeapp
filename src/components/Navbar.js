@@ -6,9 +6,9 @@ function Navbar() {
     <>
         {/* <div className='title'>Home</div> */}
         {/* <!-- As a link --> */}
-<nav className="navbar bg-light ">
+<nav className="navbar bg-light  ">
   <div className="container-fluid">
-    <a className="navbar-brand title " href="!#">Home</a>
+    <a className="navbar-brand title lfmargin " href="!#">Home</a>
   </div>
 </nav>
 
